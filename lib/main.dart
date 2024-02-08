@@ -94,7 +94,6 @@ class _CalculatorAppState extends State <CalculatorApp> {
     }
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
