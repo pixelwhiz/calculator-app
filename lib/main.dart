@@ -114,6 +114,7 @@ class _CalculatorAppState extends State <CalculatorApp> {
             bottom: Radius.circular(20),
           ),
         ),
+
         actions: [
           IconButton(
             icon: Icon(darkMode ? Icons.light_mode : Icons.dark_mode, size: 30, color: darkMode ? Colors.white : Colors.black,),
