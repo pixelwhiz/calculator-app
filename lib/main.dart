@@ -121,6 +121,7 @@ class _CalculatorAppState extends State <CalculatorApp> {
           ),
         ],
       ),
+
       body: Column(
         children: [
           Expanded(child: Container(
