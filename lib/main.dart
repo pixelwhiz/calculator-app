@@ -1,5 +1,3 @@
-import 'dart:ffi';
-import 'dart:math';
 
 import 'package:calculator/Colors.dart';
 import 'package:flutter/material.dart';
@@ -101,14 +99,13 @@ class _CalculatorAppState extends State <CalculatorApp> {
         toolbarHeight: 80,
         backgroundColor: darkMode ? Colors.purple.withOpacity(0.5) : Colors.purple.withOpacity(0.5),
         title: Text(
-          '21_M Daffa Teuku F A',
+          'Calculator App',
           style: GoogleFonts.plusJakartaSans(
             fontSize: 28.0,
             fontWeight: FontWeight.w400,
             color: darkMode ? Colors.white.withOpacity(0.75) : Colors.black.withOpacity(0.75),
           ),
         ),
-
         shape: ContinuousRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(20),
